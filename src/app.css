@@ -1,0 +1,19 @@
+body:before {
+    content: " ";
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #eccbf530, #261a7d30);
+  }
+
+body {
+    background-color: white;
+    background-image: url("/img/page_main/cosmos-5809271_960_720.png");
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    height: 100%;
+    width: 100%;
+}
