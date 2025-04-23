@@ -173,6 +173,7 @@
         position: relative;
         margin-top: -60px;
         margin-left: -60px;
+        pointer-events: none;
     }
 
 </style>
