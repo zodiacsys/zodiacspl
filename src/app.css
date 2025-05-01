@@ -18,7 +18,15 @@ body {
     width: 100%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 850px) {
+
+  body {
+    margin: 0px;
+  }
+
+}
+
+@media (max-width: 1024px) and (min-width: 501px) {
 
   body {
     margin: 0px;

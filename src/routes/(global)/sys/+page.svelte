@@ -82,6 +82,8 @@
 
 <style>
 
+    /* Main CSS Start */
+
     h2 {
         margin: 0px;
     }
@@ -220,6 +222,144 @@
 
     .subIcon5 {
         background-image: url("/img/page_main/subsys_icons/uk.png");
+    }
+
+    /* End main CSS - Start PHONE media query */
+
+    @media (max-width: 500px) {
+
+        p {
+            font-size: small;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        h3 {
+            font-size: 16px;
+        }
+
+        .descripStart {
+            padding-top: 15px;
+        }
+
+        .mainBody {
+            box-shadow: none;
+            height: 78dvh;
+        }
+
+        .subsystems {
+            margin-top: 10px;
+        }
+
+        .subsysLeft, .subsysRight {
+            height: 115px;
+            width: 90%;
+            box-shadow: 3px 3px #00000090;
+        }
+
+        .sysLink1, .sysLink {
+            width: 44%;
+        }
+
+        .minorSubsys1, .minorSubsys2 {
+            height: auto;
+            box-shadow: 3px 3px #00000090;
+        }
+
+        .titleTextLeft, .titleTextRight {
+            margin-top: 5px;
+        }
+
+        .subText {
+            height: auto;
+            font-size: 14px;
+        }
+
+        .minorSubText {
+            display: none;
+        }
+
+        .subIcon4, .subIcon5 {
+            width: 100%;
+            height: 180px;
+        }
+
+        .subIcon1, .subIcon2, .subIcon3 {
+            height: 105px;
+            min-width: 105px;
+        }
+
+    }
+
+    /* End PHONE CSS - Start TABLET media query */
+    
+    @media (max-width: 1024px) and (min-width: 501px) {
+
+        p {
+            font-size: medium;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        .descripStart {
+            padding-top: 15px;
+        }
+
+        .mainBody {
+            box-shadow: none;
+            height: 78dvh;
+        }
+
+        .subsystems {
+            margin-top: 10px;
+        }
+
+        .subsysLeft, .subsysRight {
+            height: 115px;
+            width: 90%;
+            box-shadow: 3px 3px #00000090;
+        }
+
+        .sysLink1, .sysLink {
+            width: 44%;
+        }
+
+        .minorSubsys1, .minorSubsys2 {
+            height: auto;
+            box-shadow: 3px 3px #00000090;
+        }
+
+        .titleTextLeft, .titleTextRight {
+            margin-top: 5px;
+        }
+
+        .subText {
+            height: auto;
+            font-size: 14px;
+        }
+
+        .minorSubText {
+            width: auto;
+        }
+
+        .subIcon4, .subIcon5 {
+            max-height: 115px;
+            min-width: 115px;
+        }
+
+        .subIcon1, .subIcon2, .subIcon3 {
+            height: 105px;
+            max-width: 105px;
+        }
+
     }
 
 </style>

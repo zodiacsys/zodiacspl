@@ -24,6 +24,8 @@
 </div>
 
 <style>
+
+    /* Start main CSS */
     
     p {
         margin: 0px;
@@ -84,6 +86,51 @@
         position: relative;
         right: -860px;
         margin-top: -170px;
+    }
+
+    /* End main CSS - Start PHONE media query */
+
+    @media (max-width: 500px) {
+
+        .zodiTitle, .mainContent {
+            box-shadow: none;
+        }
+
+        .titleText {
+            font-size: 18px;
+        }
+
+        .signGrab {
+            font-size: 15px;
+        }
+
+        .homeIcon {
+            width: 100px;
+            height: 100px;
+            margin-left: 0%;
+            margin-top: 5px;
+            left: 0;
+        }
+
+        .steveSmoke {
+            display: none;
+        }
+
+    }
+
+    /* End of PHONE CSS - start VERTICAL TABLET query */
+
+    @media (max-width: 1024px) and (min-width: 501px) {
+
+        .homeIcon {
+            margin-left: 0%;
+            left: 0;
+        }
+
+        .steveSmoke {
+            display: none;
+        }
+
     }
 
 </style>

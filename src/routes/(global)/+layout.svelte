@@ -251,4 +251,71 @@
 
     }
 
+    /* End of PHONE CSS - start VERTICAL TABLET query */
+
+    @media (max-width: 1024px) and (min-width: 501px) {
+
+        h2 {
+            font-size: 22px;
+        }
+
+        .navTopImgs, .stars02, .siteTitle {
+            display: none;
+        }
+
+        .flexBox {
+            display: block;
+            margin: 0%;
+        }
+
+        .navContent {
+            margin: 0px;
+        }
+        
+        .navBar {
+            box-shadow: none;
+            width: 100dvw;
+            height: auto;
+            margin: 0px;
+        }
+
+        .mainContent {
+            margin: 0px;
+            margin-top: 5px;
+            width: 100dvw;
+            height: 85dvh;
+        }
+
+        .navLinks {
+            position: relative;
+            top: -15px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .button {
+            margin: 0px;
+            width: 130px;
+            height: 42px;
+            margin: 2px;
+            box-shadow: 3px 3px #00000090;
+        }
+
+        .mobileTitle {
+            display: initial;
+            color: #fbbe4b;
+            text-shadow: 3px 3px #00000090;
+            text-align: center;
+            font-size: 30px;
+            line-height: 0px;
+            margin-bottom: -10px;
+        }
+
+        .pluringDiv {
+            display: none;
+        }
+
+    }
+
 </style>
