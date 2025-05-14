@@ -5,7 +5,7 @@
 
     <div class="subsystems">
 
-        <a class="sysLink" href="/#"><div class="subsysLeft">
+        <a class="sysLink" href="/20XX"><div class="subsysLeft">
 
             <div class="subIcon1"></div>
 
@@ -17,7 +17,7 @@
 
         </div></a>
     
-        <a class="sysLink" href="/#"><div class="subsysRight">
+        <a class="sysLink" href="#"><div class="subsysRight">
 
             <div class="subText">
 
