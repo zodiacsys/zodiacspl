@@ -31,7 +31,7 @@
             
         </div></a>
         
-        <a class="sysLink" href="/avdid"><div class="subsysLeft">
+        <a class="sysLink" href="https://avdid.zodiacs.pl/"><div class="subsysLeft">
 
             <div class="subIcon3"></div>
 
