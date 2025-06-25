@@ -15,7 +15,13 @@
 
     <div class="mainContent">
 
+        <div class="centerText">
+            
+            <p>[This section is currently awaiting a list of FRIENDS and where you can find them.]</p>
+            <br>
+            <p>Most recent changes: Added a functional links page, planning on adding the 20XX subsystem page now.</p>
         
+        </div>
 
     </div>
 
@@ -79,6 +85,10 @@
         position: relative;
         margin-top: -90px;
         z-index: -1;
+    }
+
+    .centerText {
+        text-align: center;
     }
 
     .steveSmoke {
