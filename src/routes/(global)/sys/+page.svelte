@@ -5,7 +5,7 @@
 
     <div class="subsystems">
 
-        <a class="sysLink" href="/20XX"><div class="subsysLeft">
+        <a class="sysLink" href="https://20xx.zodiacs.pl/"><div class="subsysLeft">
 
             <div class="subIcon1"></div>
 
