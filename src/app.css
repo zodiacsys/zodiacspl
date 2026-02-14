@@ -1,35 +1,59 @@
-body:before {
-    content: " ";
-    display: block;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    background: linear-gradient(to bottom right, #eccbf530, #261a7d30);
-  }
+/* New base styles: accessible, responsive, and minimal */
+:root {
+  --bg-1: #071428;
+  --bg-2: #0b1020;
+  --card: rgba(255,255,255,0.03);
+  --accent: #ffd166;
+  --fg: #e6eef8;
+  --muted: #99a3b2;
+}
 
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
 body {
-    background-color: white;
-    background-image: url("/img/page_main/cosmos-5809271_960_720.png");
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    height: 100%;
-    width: 100%;
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--fg);
+  background: linear-gradient(135deg, var(--bg-1) 0%, var(--bg-2) 60%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (max-width: 850px) {
-
-  body {
-    margin: 0px;
-  }
-
+.container {
+  width: 100%;
+  max-width: 1100px;
+  padding: 4rem 1rem;
 }
 
-@media (max-width: 1024px) and (min-width: 501px) {
-
-  body {
-    margin: 0px;
-  }
-
+.card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.06));
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.6);
 }
+
+.header { display: flex; align-items: center; gap: 1rem; }
+.logo {
+  width: 56px; height: 56px; border-radius: 10px;
+  display: inline-grid; place-items: center; font-weight: 700;
+  background: linear-gradient(135deg, var(--accent), #ef476f);
+  color: #071428;
+}
+
+.title { margin: 0; font-size: 1.6rem; }
+.subtitle { margin: 0.25rem 0 0; color: var(--muted); font-size: .95rem; }
+
+.grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; margin-top: 1rem; }
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+  .container { padding: 2rem 1rem; }
+}
+
+/* Utility */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+
+/* End of new base styles */

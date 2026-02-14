@@ -1,65 +1,17 @@
 <script>
-    import '../../app.css'
+    import '../app.css'
     import '@fontsource/atkinson-hyperlegible/400.css';
     import '@fontsource/atkinson-hyperlegible/700.css';
 </script>
 
 <svelte:head>
     <title>The Zodiacs</title>
-    <link rel="icon" type="image/x-icon" href="/img/page_main/ram.ico">
+    <link rel="icon" type="image/x-icon" href="">
 </svelte:head>
 
 <div class="flexBox">
 
-    <div class="navBar">
-        <div class="navTopImgs">
-            <img class="zodiWheel" src="/img/page_main/signs of the zodiac_cs.png" alt="A purple wheel featuring the signs of the Zodiac and their constellations">
-    
-            <div class="stars01">
-                <img src="/img/page_main/starsCluster01S.png" alt="A cluster of three yellow stars">
-            </div>
-        </div>
-
-        <div class="navContent">
-
-            <div class="mobileTitle"><h3>ZODIACS.PL</h3></div>
-
-            <div class="navLinks">
-
-                <a class="btnLink" href="/#"><div class="button"><h2>HOME</h2></div></a>
-                
-                <a class="btnLink" href="/sys"><div class="button"><h2>SYSTEM</h2></div></a>
-                
-                <a class="btnLink" href="/front"><div class="button"><h2>FRONTERS</h2></div></a>
-
-                <a class="btnLink" href="/links"><div class="button"><h2>LINKS</h2></div></a>
-
-                <a class="btnLink" href="/extra"><div class="button"><h2>ETC</h2></div></a>
-
-            </div>
-
-            <div class="pluringDiv">
-                <div id='pluring'>
-                    <script type="text/javascript" src="https://testtubesterone.nekoweb.org/pages/pluring/onionring-variables.js"></script>
-                    <script type="text/javascript" src="https://testtubesterone.nekoweb.org/pages/pluring/onionring-widget.js"></script>
-                </div>
-            </div>
-
-            <div class="stars02">
-                <img src="/img/page_main/starsCluster02S.png" alt="A cluster of three yellow stars">
-            </div>
-
-        </div>
-    
-    </div>
-    
-    <div class="mainContent">
-
-        <h1 class="siteTitle">ZODIACS.PL</h1>
-    
-        <slot />
-    
-    </div>
+    hi. we're redoing this website. please hang in while we get it started again.
 
 </div>
 
