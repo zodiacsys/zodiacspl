@@ -8,266 +8,79 @@
     <title>The Zodiacs</title>
     <link rel="icon" type="image/x-icon" href="">
 </svelte:head>
+<div class="stupidflex">
 
-<div class="flexBox">
+    <div class="contentFull">
 
-    hi. we're redoing this website. please hang in while we get it started again.
+        <div class="header">help1</div>
+
+        <div class="divFlex">
+            <div class="div01">help1</div>
+
+            <div class="div02"><slot /></div>
+
+            <div class="div03">help3</div>
+        </div>
+
+        <div class="footer">help4</div>
+
+    </div>
 
 </div>
 
 <style>
 
-    /* Start of main CSS */
-
-    h2 {
-        font-size: 30px;
-        margin: 15px;
-        font-weight: bold;
+    :global(body) {
+        background-image: url("https://zodiacs.b-cdn.net/misc/zodiacspl/noiseTexture.png");
+        background-repeat: repeat;
+        background-blend-mode: overlay;
+        background-color: antiquewhite;
     }
 
-    .navTopImgs {
+    .stupidflex {
         display: flex;
-        position: relative;
-
-    }
-    
-    .zodiWheel {
-        width: 260px;
-        position: relative;
-        top: -130px;
-        left: -130px;
-    }
-
-    .stars01 {
-        width: 160px;
-        height: 160px;
-        position: relative;
-        top: -80px;
-        right: 35px;
-    }
-
-    .flexBox {
-        display: flex;
-        height: 100%;
-        width: 100%;
         justify-content: center;
-        align-items: center;
     }
 
-    .navBar, .mainContent {
-        margin: 10px;
-        margin-top: 65px;
+    .contentFull {
+        background-color: lightgrey;
+        width: 80vw;
+        display: block;
     }
 
-    .navBar {
-        background-color: #e7e2d1;
-        color: black;
-        border-radius: 10px;
-        box-shadow: 8px 8px #00000090;
-        width: 350px;
-        height: 530px;
-        margin-right: 35px;
+    .contentFull, .header, .footer, .div01, .div02, .div03 {
+        border-radius: 1rem;
     }
 
-    .navContent {
-        margin: 10px;
+    .header, .footer {
+        background-color: red;
+        width: 80vw;
+        height: 12vh;
     }
 
-    .navLinks {
-        position: relative;
-        top: -150px;
+    .header {
+        margin-bottom: 0.5rem;
     }
 
-    .button {
-        border-radius: 5px;
-        background-color: #6d6a9a;
-        box-shadow: 5px 5px #00000090;
-        margin-bottom: -5px;
-        margin-left: 10px;
-        margin-right: 10px;
-        height: 45px;
-        text-align: center;
-        line-height: 45px;
+    .footer {
+        margin-top: 0.5rem;
     }
 
-    .btnLink, .btnLink:visited {
-        text-decoration: none;
-        color: #1f1f27;
+    .divFlex {
+        display: flex;
+        justify-content: center;
+        height: 70vh;
     }
 
-    .btnLink:hover {
-        color: white;
-    }
-    
-    .mainContent {
-        width: 1000px;
-        height: 750px;
+    .div01, .div03 {
+        background-color: green;
+        width: 230px;
     }
 
-    .siteTitle {
-        position: fixed;
-        margin-top: -20px;
-        margin-left: 38%;
-        font-weight: bold;
-        font-size: 40px;
-        color: #fbbe4b;
-        text-shadow: 5px 5px #00000090;
-    }
-
-    .pluringDiv {
-        margin-left: 30px;
-        margin-right: 30px;
-        position: relative;
-        margin-top: -130px;
-    }
-
-    #pluring {
-        height: 100px;
-    }
-
-    .stars02 {
-        position: relative;
-        margin-top: -60px;
-        margin-left: -60px;
-        pointer-events: none;
-    }
-
-    .mobileTitle {
-        display: none;
-    }
-
-    /* End of main CSS - Start of PHONES media query */
-
-    @media (max-width: 500px) {
-
-        h2 {
-            font-size: 22px;
-        }
-
-        .navTopImgs, .stars02, .siteTitle {
-            display: none;
-        }
-
-        .flexBox {
-            display: block;
-            margin: 0%;
-        }
-
-        .navContent {
-            margin: 0px;
-        }
-        
-        .navBar {
-            box-shadow: none;
-            width: 100dvw;
-            height: auto;
-            margin: 0px;
-        }
-
-        .mainContent {
-            margin: 0px;
-            margin-top: 5px;
-            width: 100dvw;
-            height: 75dvh;
-        }
-
-        .navLinks {
-            position: relative;
-            top: -15px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .button {
-            margin: 0px;
-            width: 130px;
-            height: 42px;
-            margin: 2px;
-            box-shadow: 3px 3px #00000090;
-        }
-
-        .mobileTitle {
-            display: initial;
-            color: #fbbe4b;
-            text-shadow: 3px 3px #00000090;
-            text-align: center;
-            font-size: 30px;
-            line-height: 0px;
-            margin-bottom: -10px;
-        }
-
-        .pluringDiv {
-            display: none;
-        }
-
-    }
-
-    /* End of PHONE CSS - start VERTICAL TABLET query */
-
-    @media (max-width: 1024px) and (min-width: 501px) {
-
-        h2 {
-            font-size: 22px;
-        }
-
-        .navTopImgs, .stars02, .siteTitle {
-            display: none;
-        }
-
-        .flexBox {
-            display: block;
-            margin: 0%;
-        }
-
-        .navContent {
-            margin: 0px;
-        }
-        
-        .navBar {
-            box-shadow: none;
-            width: 100dvw;
-            height: auto;
-            margin: 0px;
-        }
-
-        .mainContent {
-            margin: 0px;
-            margin-top: 5px;
-            width: 100dvw;
-            height: 85dvh;
-        }
-
-        .navLinks {
-            position: relative;
-            top: -15px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .button {
-            margin: 0px;
-            width: 130px;
-            height: 42px;
-            margin: 2px;
-            box-shadow: 3px 3px #00000090;
-        }
-
-        .mobileTitle {
-            display: initial;
-            color: #fbbe4b;
-            text-shadow: 3px 3px #00000090;
-            text-align: center;
-            font-size: 30px;
-            line-height: 0px;
-            margin-bottom: -10px;
-        }
-
-        .pluringDiv {
-            display: none;
-        }
-
+    .div02 {
+        width: 80%;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
 </style>
