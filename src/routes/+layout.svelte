@@ -22,7 +22,15 @@
             <div class="div03">help3</div>
         </div>
 
-        <div class="footer">help4</div>
+        <div class="footer">
+            
+            <div id='pluring'>
+                <script type="text/javascript" src="https://testtubesterone.nekoweb.org/pages/pluring/onionring-variables.js"></script>
+                <script type="text/javascript" src="https://testtubesterone.nekoweb.org/pages/pluring/onionring-widget.js"></script>
+            </div>
+    
+
+        </div>
 
     </div>
 
@@ -81,6 +89,10 @@
         width: 80%;
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+
+    #pluring {
+        
     }
 
 </style>
