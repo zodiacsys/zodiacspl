@@ -1,12 +1,11 @@
 <script>
     import '../app.css'
-    import '@fontsource/atkinson-hyperlegible/400.css';
-    import '@fontsource/atkinson-hyperlegible/700.css';
 </script>
 
 <svelte:head>
     <title>The Zodiacs</title>
     <link rel="icon" type="image/x-icon" href="">
+
 </svelte:head>
 <div class="stupidflex">
 
@@ -15,7 +14,12 @@
         <div class="header">help1</div>
 
         <div class="divFlex">
-            <div class="div01">help1</div>
+            <div class="div01">
+
+                <a href="/#"><div class="links">HOME</div></a>
+                <a href="/front"><div class="links">FRONTERS</div></a>
+
+            </div>
 
             <div class="div02"><slot /></div>
 
@@ -43,6 +47,7 @@
         background-repeat: repeat;
         background-blend-mode: overlay;
         background-color: antiquewhite;
+        font-family: "Atkinson Hyperlegible", sans-serif;
     }
 
     .stupidflex {
@@ -83,6 +88,8 @@
     .div01, .div03 {
         background-color: green;
         width: 230px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .div02 {
@@ -91,8 +98,21 @@
         margin-right: 1rem;
     }
 
+    .links {
+        background-color: black;
+        color: white;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+        border: 2px solid white;
+        border-radius: 0.5rem;
+        text-align: center;
+        font-size: 2em;
+    }
+
     #pluring {
-        padding: 0.5rem;
+        padding: 0.8rem;
     }
 
 </style>
