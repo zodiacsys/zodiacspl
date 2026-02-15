@@ -1,11 +1,7 @@
-<div class="pkFront" data-pkfronters-system="zodiac" data-pkfronters-type="card" data-pkfronters-options="dn"></div>
+<div data-pkfronters-system="zodiac" data-pkfronters-type="card" data-pkfronters-options="dn"></div>
 <script src="https://irys.cc/fronters/pkfronters.js" async></script>
 
 <style>
-.pkFront {
-    height: 300px;
-    width: 100%;
-}
 
 .pkfronters--member-list--pronouns, .pkfronters--member-card--pronouns {
     word-break: break-word;
