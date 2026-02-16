@@ -53,7 +53,8 @@
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.20.0",
 		"vite": "^6.4.1",
-		"vitest": "^3.0.0"
+		"vitest": "^3.0.0",
+		"irys-webby": "git+https://github.com/u1f408/irys-webby.git"
 	},
 	"dependencies": {
 		"@fontsource/atkinson-hyperlegible": "^5.2.5"
