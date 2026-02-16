@@ -6,9 +6,15 @@
     });
 </script>
 
-<div data-pkfronters-system="zodiac" data-pkfronters-type="card" data-pkfronters-options="dn"></div>
+<div class="stupidflex02"><div data-pkfronters-system="zodiac" data-pkfronters-type="card" data-pkfronters-options="dn"></div></div>
 
 <style>
+
+.stupidflex02 {
+    display: flex;
+    justify-content: center;
+}
+
 :global {
     /* this is the default pkfronters.css */
     .pkfronters--member-list--pronouns,
