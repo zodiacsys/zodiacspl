@@ -50,7 +50,7 @@
         font-family: "Atkinson Hyperlegible", sans-serif;
     }
 
-    a {
+    a, a:link, a:visited, a:hover, a:active {
         text-decoration: none;
     }
 
@@ -115,7 +115,7 @@
         border: 4px solid #73473f;
         border-radius: 0.5rem;
         text-align: center;
-        font-size: 2em;
+        font-size: 1.75em;
     }
 
     #pluring {
