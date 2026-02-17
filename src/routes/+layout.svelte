@@ -43,11 +43,15 @@
 <style>
 
     :global(body) {
-        background-image: url("https://zodiacs.b-cdn.net/misc/zodiacspl/noiseTexture.png");
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(255, 255, 255, 0) 10%, rgba(255, 228, 110, 0.758) 100%), url("https://zodiacs.b-cdn.net/misc/zodiacspl/rams250.png");
         background-repeat: repeat;
-        background-blend-mode: overlay;
-        background-color: antiquewhite;
         font-family: "Atkinson Hyperlegible", sans-serif;
+    }
+
+    a {
+        text-decoration: none;
     }
 
     .stupidflex {
@@ -56,7 +60,6 @@
     }
 
     .contentFull {
-        background-color: lightgrey;
         width: 80vw;
         display: block;
     }
@@ -66,7 +69,8 @@
     }
 
     .header, .footer {
-        background-color: red;
+        border: 8px solid #73473f;
+        background-color: #ac8265;
         width: 80vw;
         height: 12vh;
     }
@@ -86,26 +90,29 @@
     }
 
     .div01, .div03 {
-        background-color: green;
-        width: 230px;
+        border: 8px solid #73473f;
+        background-color: #ac8265;
+        width: 250px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
     .div02 {
+        border: 8px solid #73473f;
+        background-color: #f2e3bd;
         width: 80%;
         margin-left: 1rem;
         margin-right: 1rem;
     }
 
     .links {
-        background-color: black;
-        color: white;
+        background-color: #fbb910;
+        color: #2b2b2b;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 5px;
-        border: 2px solid white;
+        border: 4px solid #73473f;
         border-radius: 0.5rem;
         text-align: center;
         font-size: 2em;
