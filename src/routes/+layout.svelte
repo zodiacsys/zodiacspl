@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-    <title>The Zodiacs</title>
+    <title>Schäflein</title>
     <link rel="icon" type="image/x-icon" href="">
 
 </svelte:head>
@@ -11,7 +11,13 @@
 
     <div class="contentFull">
 
-        <div class="header">help1</div>
+        <div class="header">
+            
+            <div class="headerMessage">
+                <h1>Something goes here. Two Three Four Five Six Seven Eight Nine Ten Eleven</h1>
+            </div>
+
+        </div>
 
         <div class="divFlex">
             <div class="div01">
@@ -52,7 +58,26 @@
 
     a, a:link, a:visited, a:hover, a:active {
         text-decoration: none;
+        color: inherit;
     }
+
+    .headerMessage {
+        display: inline-block;
+        white-space: nowrap;
+        animation: floatText 30s infinite linear;
+        padding-left: 100%;
+    }
+
+    headerMessage:hover {
+        animation-play-state: paused;
+    }
+
+    @keyframes floatText {
+        to {
+            transform: translateX(-100%);
+        }
+    }
+    
 
     .stupidflex {
         display: flex;
@@ -73,6 +98,7 @@
         background-color: #ac8265;
         width: 80vw;
         height: 12vh;
+        overflow: hidden;
     }
 
     .header {
