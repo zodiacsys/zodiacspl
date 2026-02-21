@@ -51,8 +51,9 @@
     :global(body) {
         width: 100%;
         height: 100vh;
-        background-image: linear-gradient(rgba(255, 255, 255, 0) 10%, rgba(255, 228, 110, 0.758) 100%), url("https://zodiacs.b-cdn.net/misc/zodiacspl/rams250.png");
+        background-image: linear-gradient(0deg,rgba(0, 0, 0, 0) 10%, rgba(255, 208, 0, 1) 100%), url("https://zodiacs.b-cdn.net/misc/zodiacspl/rams250.png");
         background-repeat: repeat;
+        background-blend-mode: overlay;
         font-family: "Atkinson Hyperlegible", sans-serif;
     }
 
