@@ -29,7 +29,7 @@
 
             <div class="div02"><slot /></div>
 
-            <div class="div03">help3</div>
+            <div class="div03"><img src="https://zodiacs.b-cdn.net/misc/zodiacspl/schaefle.in.png" alt="a website button that says schaeflein on it and features a cartoon sheep. its green and yellow"></div>
         </div>
 
         <div class="footer">
@@ -61,24 +61,6 @@
         text-decoration: none;
         color: inherit;
     }
-
-    .headerMessage {
-        display: inline-block;
-        white-space: nowrap;
-        animation: floatText 30s infinite linear;
-        padding-left: 100%;
-    }
-
-    headerMessage:hover {
-        animation-play-state: paused;
-    }
-
-    @keyframes floatText {
-        to {
-            transform: translateX(-100%);
-        }
-    }
-    
 
     .stupidflex {
         display: flex;
@@ -130,6 +112,10 @@
         width: 80%;
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+
+    .div03 {
+        text-align: center;
     }
 
     .links {
