@@ -53,12 +53,11 @@
         flex-flow: column wrap;
         align-items: center;
         max-width: 8em;
-        background: #ffcc4b;
         color: #2b2b2b;
         padding: 1rem;
         border-radius: 4px;
         border: 4px solid transparent;
-        margin: 1em;
+        margin-top: 1em;
     }
 
     .pkfronters--member-card--avatar
