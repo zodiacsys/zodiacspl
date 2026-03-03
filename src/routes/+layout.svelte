@@ -14,7 +14,7 @@
         <div class="header">
             
             <div class="headerMessage">
-                <h1>Something goes here. Two Three Four Five Six Seven Eight Nine Ten Eleven</h1>
+                <h1>Holy WIP...</h1>
             </div>
 
         </div>
