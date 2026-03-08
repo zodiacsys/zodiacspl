@@ -146,7 +146,7 @@
 
     .message {
         background-color: #191c1f;
-        border-radius: 15px;
+        border-radius: 15px 15px 15px 0px;
         margin-left: 0.5rem;
         padding-left: 8px;
         padding-right: 8px;
