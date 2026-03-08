@@ -7,21 +7,63 @@
         <h2>Management</h2>
 
         <div class="lineDiv">
+            <a href="/s/m/wright">
+                <div class="miniProfile" id="threeIcon">
+                    <img class="miniIcon" src="https://zodiacs.b-cdn.net/m/Management/wright.tdl01.png" alt="">
+                    <img class="miniIcon" src="https://zodiacs.b-cdn.net/m/Management/wright.sub01.png" alt="">
+                    <img class="miniIcon" src="https://zodiacs.b-cdn.net/m/Management/wright.tm01.png" alt="">
 
-            <div class="miniProfile">
-                <img class="miniIcon" src="https://zodiacs.b-cdn.net/m/Management/wright.tdl01.png" alt="">
-                <img class="miniIcon" src="https://zodiacs.b-cdn.net/m/Management/wright.sub01.png" alt="">
-                <img class="miniIcon" src="https://zodiacs.b-cdn.net/m/Management/wright.tm01.png" alt="">
-
-                <div class="profileText">
-                    <p id="profileName">Wright</p>
-                    <p id="statusText">System Host | he/it | 27</p>
+                    <div class="profileText">
+                        <p id="profileName">Wright</p>
+                        <p id="statusText">System Host | he/it | 27</p>
+                    </div>
                 </div>
-            </div>
-
+            </a>
             <div class="message">
 
-                <p>SOME TEXT HERE</p>
+                <p>I am physically incapable of shutting the hell up. Good luck!</p>
+
+            </div>
+
+        </div>
+
+        <div class="lineDiv">
+            <a href="/s/m/wyatt">
+                <div class="miniProfile" id="threeIcon">
+                    <img class="miniIcon" src="https://zodiacs.b-cdn.net/m/Management/wyatt.hl01.png" alt="">
+                    <img class="miniIcon" src="https://zodiacs.b-cdn.net/m/Management/wyatt.vic01.png" alt="">
+                    <img class="miniIcon" src="https://zodiacs.b-cdn.net/m/Management/wyatt.tm01.png" alt="">
+
+                    <div class="profileText">
+                        <p id="profileName">Wyatt</p>
+                        <p id="statusText">Gatekeeper | it/its | 26</p>
+                    </div>
+                </div>
+            </a>
+            <div class="message">
+
+                <p>im so tired why are you makin me write</p>
+
+            </div>
+
+        </div>
+
+        <div class="lineDiv">
+            <a href="/s/m/harvey">
+                <div class="miniProfile" id="threeIcon">
+                    <img class="miniIcon" src="https://zodiacs.b-cdn.net/m/Management/harvey.png" alt="">
+                    <img class="miniIcon" src="https://zodiacs.b-cdn.net/m/Management/harvey.tsc.png" alt="">
+                    <img class="miniIcon" src="https://zodiacs.b-cdn.net/m/Management/harvey.tm.png" alt="">
+
+                    <div class="profileText">
+                        <p id="profileName">Harvey</p>
+                        <p id="statusText">Gatekeeper | he/him | 13</p>
+                    </div>
+                </div>
+            </a>
+            <div class="message">
+
+                <p>Don't fuck with me. I have the power of God and anime on my side. /s</p>
 
             </div>
 
@@ -69,9 +111,15 @@
     
     .miniProfile {
         display: flex;
+        justify-content: center;
         background-color: #191c1f;
         border-radius: 15px;
         padding: 8px;
+        margin: 3px;
+    }
+
+    #threeIcon {
+        width: 350px;
     }
 
     .miniIcon {
