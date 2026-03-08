@@ -54,7 +54,7 @@
         align-items: center;
         max-width: 8em;
         color: #2b2b2b;
-        padding: 1rem;
+        padding: 0.25rem;
         border-radius: 4px;
         border: 4px solid transparent;
         margin-top: 1em;
