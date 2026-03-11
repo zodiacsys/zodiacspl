@@ -27,6 +27,7 @@
                 <a target="_blank" href="/s"><div class="links">SYSTEM</div></a>
                 <a href="/blog"><div class="links">BLOG POSTS</div></a>
                 <a href="/changelog"><div class="links">CHANGELOG</div></a>
+                <a href="/credits"><div class="links">CREDITS</div></a>
 
             </div>
 
@@ -117,6 +118,7 @@
         margin-right: 1rem;
         padding-left: 10px;
         padding-right: 10px;
+        overflow: scroll;
     }
 
     .div03 {

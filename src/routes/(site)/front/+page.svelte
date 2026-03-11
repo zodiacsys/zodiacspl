@@ -50,22 +50,24 @@
     .pkfronters--member-card
     {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-flow: column wrap;
         align-items: center;
-        max-width: 8em;
+        max-width: 12em;
         color: #2b2b2b;
         padding: 0.25rem;
         border-radius: 4px;
         border: 4px solid transparent;
-        margin-top: 1em;
+        margin-top: 1.5em;
     }
 
     .pkfronters--member-card--avatar
     {
-        min-width: 6rem;
-        width: 6rem;
-        min-height: 6rem;
-        height: 6rem;
+        min-width: 8rem;
+        width: 8rem;
+        min-height: 8rem;
+        height: 8rem;
         margin: 0 0 0.5rem 0;
         border-radius: 4px;
         border: 4px solid transparent;
