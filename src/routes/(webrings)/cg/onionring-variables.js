@@ -8,9 +8,7 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://schaefle.in/',
-'https://gaylittlezooid.neocities.org/',
-'https://example.com/',
-'https://example.com/'
+'https://gaylittlezooid.neocities.org/'
 ];
 
 //the name of the ring
@@ -24,7 +22,7 @@ var ringID = 'cgring';
 //should the widget include a link to an index page?
 var useIndex = false;
 //the full URL of the index page. if you're not using one, you don't have to specify anything here
-var indexPage = 'https://example.com/index.html';
+var indexPage = 'https://schaefle.in/cg';
 
 //should the widget include a random button?
 var useRandom = true;
