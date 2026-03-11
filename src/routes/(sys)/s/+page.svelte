@@ -13,6 +13,10 @@
 
 <style>
 
+    a {
+        text-decoration: underline;
+    }
+
     .titleName {
         margin-left: 1.5vw;
     }

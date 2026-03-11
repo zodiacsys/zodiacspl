@@ -24,6 +24,9 @@
 
                 <a href="/#"><div class="links">HOME</div></a>
                 <a href="/front"><div class="links">FRONTERS</div></a>
+                <a target="_blank" href="/s"><div class="links">SYSTEM</div></a>
+                <a href="/blog"><div class="links">BLOG POSTS</div></a>
+                <a href="/changelog"><div class="links">CHANGELOG</div></a>
 
             </div>
 
@@ -112,6 +115,8 @@
         width: 80%;
         margin-left: 1rem;
         margin-right: 1rem;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .div03 {
