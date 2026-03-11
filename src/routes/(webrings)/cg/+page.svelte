@@ -1,6 +1,6 @@
 Index Page
 
 <div id='cgring'>
-<script type="text/javascript" src="scriptURL/onionring-variables.js"></script>
-<script type="text/javascript" src="scriptURL/onionring-widget.js"></script>
+<script type="text/javascript" src="https://schaefle.in/cgring/onionring-variables.js"></script>
+<script type="text/javascript" src="https://schaefle.in/cgring/onionring-widget.js"></script>
 </div>
