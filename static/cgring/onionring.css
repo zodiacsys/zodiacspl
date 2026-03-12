@@ -8,10 +8,12 @@
 #cgring {
   margin: 0 auto;
   padding: 15px; /* creates some space around the widget */
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: inherit;
 }
 
 #cgring table {
-  background-color: #ffffff; /* makes the background pure white */
+  background-color: #ffffff00; /* makes the background pure white */
   margin: 0 auto; /* centers the widget */
 }
 
@@ -33,6 +35,5 @@
 
 #cgring .webring-links {
   font-size:small;
-  font-family: "Comic Sans MS", cursive, sans-serif;
   text-decoration: none;
 }
