@@ -1,12 +1,11 @@
 <script>
     import '../../app.css'
-    import '$env/static/public/cgring/onionring.css'
 </script>
 
 <svelte:head>
     <title>Schäflein</title>
     <link rel="icon" type="image/x-icon" href="">
-
+    <link rel="stylesheet" href="/cgring/onionring.css">
 </svelte:head>
 <div class="stupidflex">
 
