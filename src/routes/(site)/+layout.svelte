@@ -1,5 +1,6 @@
 <script>
     import '../../app.css'
+    import '$env/static/public/cgring/onionring.css'
 </script>
 
 <svelte:head>
