@@ -26,6 +26,7 @@
                 <a href="/front"><div class="links">FRONTERS</div></a>
                 <a target="_blank" href="/s"><div class="links">SYSTEM</div></a>
                 <a href="/blog"><div class="links">BLOG POSTS</div></a>
+                <a target="_blank" href="/cg"><div class="links">WEBRING</div></a>
                 <a href="/changelog"><div class="links">CHANGELOG</div></a>
                 <a href="/credits"><div class="links">CREDITS</div></a>
 

@@ -30,7 +30,7 @@ if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
 <table>
   <tr>
-    <td>This site isn't part of the ${ringName} webring yet. You should talk to the manager to have your site added to the list!</td>
+    <td>You haven't joined ${ringName} webring yet. Send a message to the owner to join!</td>
   </tr>
 </table>
   `);
@@ -45,26 +45,26 @@ else {
   indexText = ""
   //if you've chosen to include an index, this builds the link to that
   if (useIndex) {
-    indexText = `<a href='${indexPage}'>index</a> | `;
+    indexText = `<a href='${indexPage}'>INDEX</a> | `;
   }
 
   randomText = ""
   //if you've chosen to include a random button, this builds the link that does that
   if (useRandom) {
-    randomText = `<a href='javascript:void(0)' onclick='randomSite()'>random</a> | `;
+    randomText = `<a href='javascript:void(0)' onclick='randomSite()'>RANDOM</a> | `;
   }
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
   <table>
     <tr>
-      <td class='webring-prev'><a href='${sites[previousIndex]}'>â† previous</a></td>
-      <td class='webring-info'>This site is part of the ${ringName} webring</br>
+      <td class='webring-prev'><a href='${sites[previousIndex]}'>PREVIOUS</a></td>
+      <td class='webring-info'><img src="https://zodiacs.b-cdn.net/misc/holdingHands.png"></br>
       <span class='webring-links'>
         ${randomText}
         ${indexText}
-        <a href='https://allium.house/garden/onionring/'>what is this?</a></span></td>
-      <td class='webring-next'><a href='${sites[nextIndex]}'>next â†’</a></td>
+        <a href='https://allium.house/garden/onionring/'>WHAT'S THIS?</a></span></td>
+      <td class='webring-next'><a href='${sites[nextIndex]}'>NEXT</a></td>
     </tr>
   </table>
   `);
