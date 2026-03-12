@@ -5,7 +5,7 @@
 <svelte:head>
     <title>Schäflein</title>
     <link rel="icon" type="image/x-icon" href="">
-    <link rel="stylesheet" href="/cgring/onionring.css">
+    <link rel="stylesheet" href="/cgring/CGonionring.css">
 </svelte:head>
 <div class="stupidflex">
 
@@ -38,8 +38,8 @@
 
             <div class="div03">
                 <div id='cgring'>
-                    <script type="text/javascript" src="https://schaefle.in/cgring/onionring-variables.js"></script>
-                    <script type="text/javascript" src="https://schaefle.in/cgring/onionring-widget.js"></script>
+                    <script type="text/javascript" src="https://schaefle.in/cgring/CGonionring-variables.js"></script>
+                    <script type="text/javascript" src="https://schaefle.in/cgring/CGonionring-widget.js"></script>
                 </div>
                 
                 <div id='pluring'>
