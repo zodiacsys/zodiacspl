@@ -22,7 +22,7 @@
 }
 
 #cgring table tr td {
-  padding: 15px; /* creates some space between the links and text inside the widget */
+  padding: 5px; /* creates some space between the links and text inside the widget */
 }
 
 #cgring .webring-prev {
