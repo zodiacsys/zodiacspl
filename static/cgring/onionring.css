@@ -11,7 +11,7 @@
 }
 
 #cgring {
-  margin: 0 auto;
+  margin: auto;
   padding: 15px; /* creates some space around the widget */
   color: inherit;
 }
