@@ -30,6 +30,8 @@
                 <a href="/changelog"><div class="links">CHANGELOG</div></a>
                 <a href="/credits"><div class="links">CREDITS</div></a>
 
+                <img class="polyculeTato" src="https://zodiacs.b-cdn.net/misc/zodiacspl/sticker_tato01.png" alt="cartoon drawing of our partner, tato">
+
             </div>
 
             <div class="div02"><slot /></div>
@@ -44,6 +46,9 @@
                     <script type="text/javascript" src="https://testtubesterone.nekoweb.org/pages/pluring/onionring-variables.js"></script>
                     <script type="text/javascript" src="https://testtubesterone.nekoweb.org/pages/pluring/onionring-widget.js"></script>
                 </div>
+
+                <img class="polyculeDoc" src="https://zodiacs.b-cdn.net/misc/zodiacspl/sticker_doc.png" alt="cartoon drawing of our partner doc's sona">
+
             </div>
             
         </div>
@@ -91,7 +96,7 @@
         border: 8px solid #73473f;
         background-color: #ac8265;
         width: 80vw;
-        height: 12vh;
+        height: 13vh;
         overflow: hidden;
     }
 
@@ -115,6 +120,7 @@
         width: 250px;
         padding-top: 10px;
         padding-bottom: 10px;
+        position: relative;
     }
 
     .div02 {
@@ -143,6 +149,13 @@
         border-radius: 0.5rem;
         text-align: center;
         font-size: 1.75em;
+    }
+
+    .polyculeTato, .polyculeDoc {
+        width: 10vw;
+        position: absolute;
+        bottom: 0;
+        left: 0;
     }
 
     #pluring {
