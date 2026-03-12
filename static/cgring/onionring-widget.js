@@ -56,7 +56,7 @@ else {
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
-  <table>
+  <table class="centerTable">
     <tr>
       <td class='webring-prev'><a href='${sites[previousIndex]}'>⇐</a></td>
       <td class='webring-info'><img src="https://zodiacs.b-cdn.net/misc/holdingHands.png" style="height: 50px; width: auto;"></br>
