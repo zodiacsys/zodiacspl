@@ -38,6 +38,11 @@
         </div>
 
         <div class="footer">
+
+            <div id='cgring'>
+                <script type="text/javascript" src="https://schaefle.in/cgring/onionring-variables.js"></script>
+                <script type="text/javascript" src="https://schaefle.in/cgring/onionring-widget.js"></script>
+            </div>
             
             <div id='pluring'>
                 <script type="text/javascript" src="https://testtubesterone.nekoweb.org/pages/pluring/onionring-variables.js"></script>
