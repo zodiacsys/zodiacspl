@@ -59,7 +59,7 @@ else {
   <table>
     <tr>
       <td class='webring-prev'><a href='${sites[previousIndex]}'>⇐</a></td>
-      <td class='webring-info'><img src="https://zodiacs.b-cdn.net/misc/holdingHands.png" max-width="300"></br>
+      <td class='webring-info'><img src="https://zodiacs.b-cdn.net/misc/holdingHands.png" max-width="300" max-height:"50"></br>
       <span class='webring-links'>
         ${randomText}
         ${indexText}
