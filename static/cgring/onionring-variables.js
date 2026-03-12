@@ -9,6 +9,7 @@
 var sites = [
 'https://schaefle.in/',
 'https://gaylittlezooid.neocities.org/',
+'http://localhost:5173/'
 ];
 
 //the name of the ring
