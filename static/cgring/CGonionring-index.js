@@ -5,7 +5,7 @@
 // === ONIONRING-INDEX ===
 //this file builds the list of sites in the ring for displaying on your index page
 
-var tag = document.getElementById('index');
+var tag = document.getElementById('indexCG');
 regex = /^https:\/\/|\/$/g; //strips the https:// and trailing slash off the urls for aesthetic purposes
 
 list = "";
