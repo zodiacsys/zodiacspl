@@ -6,7 +6,7 @@
 //this file contains the stuff you edit to set up your specific webring
 
 //the full URLs of all the sites in the ring
-var sites = [
+var cgSites = [
 'https://schaefle.in/',
 'https://gaylittlezooid.neocities.org/',
 ];
