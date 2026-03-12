@@ -34,20 +34,21 @@
 
             <div class="div02"><slot /></div>
 
-            <div class="div03"><img src="https://zodiacs.b-cdn.net/misc/zodiacspl/schaefle.in.png" alt="a website button that says schaeflein on it and features a cartoon sheep. its green and yellow"></div>
+            <div class="div03">
+                <div id='cgring'>
+                    <script type="text/javascript" src="https://schaefle.in/cgring/onionring-variables.js"></script>
+                    <script type="text/javascript" src="https://schaefle.in/cgring/onionring-widget.js"></script>
+                </div>
+                
+                <div id='pluring'>
+                    <script type="text/javascript" src="https://testtubesterone.nekoweb.org/pages/pluring/onionring-variables.js"></script>
+                    <script type="text/javascript" src="https://testtubesterone.nekoweb.org/pages/pluring/onionring-widget.js"></script>
+                </div>
+            </div>
+            
         </div>
 
         <div class="footer">
-
-            <div id='cgring'>
-                <script type="text/javascript" src="https://schaefle.in/cgring/onionring-variables.js"></script>
-                <script type="text/javascript" src="https://schaefle.in/cgring/onionring-widget.js"></script>
-            </div>
-            
-            <div id='pluring'>
-                <script type="text/javascript" src="https://testtubesterone.nekoweb.org/pages/pluring/onionring-variables.js"></script>
-                <script type="text/javascript" src="https://testtubesterone.nekoweb.org/pages/pluring/onionring-widget.js"></script>
-            </div>
     
 
         </div>
