@@ -18,7 +18,7 @@ for (i = 0; i < cgSites.length; i++) {
   }
 }
 
-function randomSite() {
+function randomSiteCG() {
   otherCgSites = cgSites.slice(); //create a copy of the sites list
   otherCgSites.splice(thisIndexCG, 1); //remove the current site so we don't just land on it again
   randomIndexCG = Math.floor(Math.random() * otherCgSites.length);
@@ -51,7 +51,7 @@ else {
   randomText = ""
   //if you've chosen to include a random button, this builds the link that does that
   if (useRandom) {
-    randomText = `<a href='javascript:void(0)' onclick='randomSite()'>⇆</a> | `;
+    randomText = `<a href='javascript:void(0)' onclick='randomSiteCG()'>⇆</a> | `;
   }
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure

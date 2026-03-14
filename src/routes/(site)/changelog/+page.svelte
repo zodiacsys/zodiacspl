@@ -1,5 +1,13 @@
 <h1>Such a WIP it's not even funny</h1>
 
+<blockquote><h3>March 14th, 2026</h3>
+    <blockquote id="quoteWall">
+        <p>Still struggling with the webring randomizer, I know it's because there's two onionring widgets on the same page but like... what</p>
+        <p>I changed every single variable name possible (afaik) and renamed the .js files too like. What is happening</p>
+        <p>Whatever</p>
+    </blockquote>
+</blockquote>
+
 <blockquote><h3>March 12th, 2026</h3>
     <blockquote id="quoteWall">
         <p>Desperately tried to fix the webring's randomizer</p>
