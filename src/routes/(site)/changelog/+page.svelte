@@ -5,6 +5,8 @@
         <p>Still struggling with the webring randomizer, I know it's because there's two onionring widgets on the same page but like... what</p>
         <p>I changed every single variable name possible (afaik) and renamed the .js files too like. What is happening</p>
         <p>Whatever</p>
+        <br>
+        <p>You'll never believe this. I fixed it. We missed a variable. You're welcome, everyone. -UNIX</p>
     </blockquote>
 </blockquote>
 
