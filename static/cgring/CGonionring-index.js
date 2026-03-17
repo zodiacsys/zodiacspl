@@ -14,7 +14,7 @@ for (i = 0; i < cgSites.length; i++) {
 }
 
 tag.insertAdjacentHTML('afterbegin', `
-<ul>
-${list}
-</ul>
+  <ul>
+    ${list}
+  </ul>
 `);
